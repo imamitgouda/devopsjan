@@ -48,7 +48,6 @@ pipeline {
                   }
             }
         }
-       
         stage('Deploy the project using Container') {
             steps {
                 echo "Running Java Application"
